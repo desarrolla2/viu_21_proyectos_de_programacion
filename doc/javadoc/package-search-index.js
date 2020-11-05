@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"com.viu.giin21"},{"l":"com.viu.giin21.configuration"},{"l":"com.viu.giin21.controller"},{"l":"com.viu.giin21.dto"},{"l":"com.viu.giin21.model"},{"l":"com.viu.giin21.repository"},{"l":"com.viu.giin21.service"},{"l":"com.viu.giin21.service.implementation"}]

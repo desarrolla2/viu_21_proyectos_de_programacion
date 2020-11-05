@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html th:replace="~{layout :: layout( ~{::section})}" xmlns:th="http://www.thymeleaf.org">
+<body>
+<section>
+  <form th:action="@{/job/simulate}" method="post">
+    <div class="box box-default">
+      <div class="box-header"><h3 class="box-title"><i class="fa fa-fw fa-cogs"></i> Trabajos no terminados</h3></div>
+      <div class="box-body">
+        <table class="table table-striped table-hover">
+          <thead>
+          <tr>
+            <th class="col-sm-1">#</th>
+            <th>Nombre</th>
+            <th class="col-sm-1">Propietario</th>
+            <th class="col-sm-1">Centro</th>
+            <th class="col-sm-1 text-right">Ejecutado</th>
+            <th class="col-sm-1 text-right">Tamaño</th>
+            <th class="col-sm-1 text-right">Iniciado</th>
+          </tr>
+          </thead>
+          <tr th:each="job :${jobs}" th:if="${job.workplaceName}">
+            <td th:text="${job.id}"></td>
+            <td th:text="${job.name}"></td>
+            <td th:text="${job.ownerUsername}"></td>
+            <td th:text="${job.workplaceName}"></td>
+            <td class="text-right" th:text="${job.executed}"></td>
+            <td class="text-right" th:text="${job.size}"></td>
+            <td class="text-right" th:text="${job.started}"></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <div class="box box-default">
+      <div class="box-header"><h3 class="box-title"><i class="fa fa-fw fa-cogs"></i> Ejecutar simulación</h3></div>
+      <div class="box-body">
+        <div class="form-group">
+          <label>Número de segundos</label>
+          <input type="number" name="seconds" th:field="${simulation.seconds}" class="form-control"
+                 min="1" max="1000000" required="true"/>
+        </div>
+      </div>
+      <div class="box-footer">
+        <button type="submit" class="btn btn-success">
+          <i class="fa fa-fw fa-refresh"></i> Simular
+        </button>
+      </div>
+    </div>
+  </form>
+</section>
+</body>
+</html>

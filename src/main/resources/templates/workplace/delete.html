@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" th:replace="~{layout :: layout( ~{::section})}">
+<body>
+<section>
+  <form th:action="@{/workplace/{id}/delete(id=${workplace.id})}" method="post">
+    <div class="box box-default">
+      <div class="box-header"><h3 class="box-title"><i class="fa fa-fw fa-trash"></i> Eliminar centro</h3></div>
+      <div class="box-body">
+        <p>Atención vas a eliminar el centro "<span th:text="${workplace.name}"></span>".
+          Esta acción no se puede deshacer.
+        </p>
+      </div>
+      <div class="box-footer">
+        <button type="submit" class="btn btn-danger">
+          <i class="fa fa-fw fa-trash"></i> Eliminar
+        </button>
+      </div>
+  </form>
+</section>
+</body>
+</html>

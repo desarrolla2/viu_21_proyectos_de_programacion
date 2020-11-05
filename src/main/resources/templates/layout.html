@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html th:fragment="layout ( content)" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>GIIN 21 | VIU</title>
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/css/bootstrap.css"
+        integrity="sha512-mG7Xo6XLlQ13JGPQLgLxI7bz8QlErrsE9rYQDRgF+6AlQHm9Tn5bh/vaIKxBmM9mULPC6yizAhEmKyGgNHCIvg=="
+        crossorigin="anonymous"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/admin-lte/2.4.18/css/AdminLTE.min.css"
+        integrity="sha512-SvzDTeVjcacK3/Re22K/cLJonaRQAOv5rJ58s8A5xIxhPTZLhQH5NOg2wziR8jWI14We8HHs5jEih2OkUW5Kfw=="
+        crossorigin="anonymous"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/admin-lte/2.4.18/css/skins/_all-skins.min.css"
+        integrity="sha512-KYc8PMaRqUq8Tlh3D1S6YdumJiAdLeGTfvefdm+N4bR+hYzsiVCRgQSD7kqybOXnIs9LkDCVhhzcXHUV+xqpqg=="
+        crossorigin="anonymous"/>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+        integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+        crossorigin="anonymous"/>
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+
+  <!-- Google Font -->
+  <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
+</head>
+<body class="hold-transition skin-blue sidebar-mini">
+<div class="wrapper">
+  <header class="main-header">
+    <a th:href="@{/}" class="logo">
+      <span class="logo-mini"><b>G</b> 21</span>
+      <span class="logo-lg"><b>GIIN</b> 21</span>
+    </a>
+    <nav class="navbar navbar-static-top">
+      <a href="#" class="sidebar-toggle" data-toggle="push-menu" role="button">
+        <span class="sr-only">Toggle navigation</span>
+      </a>
+      <div class="navbar-custom-menu">
+        <ul class="nav navbar-nav">
+          <li>
+            <a th:href="@{/logout}"><i class="fa fa-fw fa-sign-out"></i> Salir</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <aside class="main-sidebar">
+    <section class="sidebar">
+      <ul class="sidebar-menu" style="margin-top: 20px">
+        <li>
+          <a th:href="@{/}" class="">
+            <i class="fa fa-fw fa-home" aria-hidden="true"></i> Inicio
+          </a>
+        </li>
+        <li>
+          <a th:href="@{/user}" class="">
+            <i class="fa fa-fw fa-users" aria-hidden="true"></i> Usuarios
+          </a>
+        </li>
+        <li>
+          <a th:href="@{/workplace}" class="">
+            <i class="fa fa-fw fa-server" aria-hidden="true"></i> Centros
+          </a>
+        </li>
+        <li>
+          <a th:href="@{/job}" class="">
+            <i class="fa fa-fw fa-cogs" aria-hidden="true"></i> Trabajos
+          </a>
+        </li>
+      </ul>
+    </section>
+  </aside>
+  <div class="content-wrapper">
+    <section class="content">
+      <div th:replace="${content}"></div>
+    </section>
+  </div>
+  <footer class="main-footer">
+    <div class="pull-right hidden-xs">
+      <b>Version</b> 0.1.0
+    </div>
+    <strong>Copyright &copy; 2021 <a href="https://devtia.com">DANIEL GONZÁLEZ</a>.</strong>
+    Trabajo realizado para la asignatura de proyectos de programación (GIIN21) de la Universidad Internacional de
+    Valencia.
+  </footer>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.js"
+        integrity="sha512-WNLxfP/8cVYL9sj8Jnp6et0BkubLP31jhTG9vhL/F5uEZmg5wEzKoXp1kJslzPQWwPT1eyMiSxlKCgzHLOTOTQ=="
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/js/bootstrap.min.js"
+        integrity="sha512-oBTprMeNEKCnqfuqKd6sbvFzmFQtlXS3e0C/RGFV0hD6QzhHV+ODfaQbAlmY6/q0ubbwlAM/nCJjkrgA3waLzg=="
+        crossorigin="anonymous"></script>
+</body>
+</html>

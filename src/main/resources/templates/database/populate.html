@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" th:replace="~{layout :: layout( ~{::section})}">
+<body>
+<section>
+  <form th:action="@{/database/populate}" method="post">
+    <div class="box box-default">
+      <div class="box-header"><h3 class="box-title"><i class="fa fa-fw fa-refresh"></i> Generar datos de prueba</h3>
+      </div>
+      <div class="box-body">
+        <p>Atención se van a generar algunos datos de prueba. Esta operación no se puede deshacer.</p>
+      </div>
+      <div class="box-footer">
+        <button type="submit" class="btn btn-warning">
+          <i class="fa fa-fw fa-refresh"></i> Generar datos
+        </button>
+      </div>
+  </form>
+</section>
+</body>
+</html>

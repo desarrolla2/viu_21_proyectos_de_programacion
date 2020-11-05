@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.viu.giin21</OriginalElement>
+  <nodes>
+    <node x="1594.5014573070607" y="656.0">com.viu.giin21.service.implementation.UserServiceImplementation</node>
+    <node x="2497.427853037767" y="0.0">com.viu.giin21.dto.JobDTO</node>
+    <node x="315.7461001642039" y="228.0">com.viu.giin21.repository.WorkplaceRepository</node>
+    <node x="1773.0014573070607" y="228.0">com.viu.giin21.service.AllocateService</node>
+    <node x="2871.5320197044334" y="0.0">com.viu.giin21.dto.WorkplaceDTO</node>
+    <node x="3075.5014573070607" y="656.0">com.viu.giin21.controller.DefaultController</node>
+    <node x="3343.5014573070607" y="656.0">com.viu.giin21.controller.WorkplaceController</node>
+    <node x="2293.5014573070607" y="656.0">com.viu.giin21.controller.AllocateController</node>
+    <node x="1271.5014573070607" y="228.0">com.viu.giin21.repository.UserRepository</node>
+    <node x="3330.8445197044334" y="0.0">com.viu.giin21.dto.UserDTO</node>
+    <node x="1000.2347906403941" y="228.0">com.viu.giin21.service.SimulateService</node>
+    <node x="3633.5014573070607" y="656.0">com.viu.giin21.controller.UserController</node>
+    <node x="2014.5014573070607" y="656.0">com.viu.giin21.controller.SimulateController</node>
+    <node x="3316.3964285714287" y="228.0">com.viu.giin21.service.UserService</node>
+    <node x="427.23479064039407" y="656.0">com.viu.giin21.service.implementation.JobServiceImplementation</node>
+    <node x="2171.87487684729" y="228.0">com.viu.giin21.dto.SimulationDTO</node>
+    <node x="180.12725779967127" y="0.0">com.viu.giin21.model.Job</node>
+    <node x="2796.5014573070607" y="656.0">com.viu.giin21.controller.DatabaseController</node>
+    <node x="772.2347906403941" y="656.0">com.viu.giin21.service.implementation.AllocateServiceImplementation</node>
+    <node x="1401.8547619047622" y="0.0">com.viu.giin21.model.User</node>
+    <node x="2576.927853037767" y="228.0">com.viu.giin21.service.JobService</node>
+    <node x="42.89610016420397" y="228.0">com.viu.giin21.repository.JobRepository</node>
+    <node x="1183.5014573070607" y="656.0">com.viu.giin21.service.implementation.WorkplaceServiceImplementation</node>
+    <node x="27.234790640394067" y="656.0">com.viu.giin21.service.implementation.SimulateServiceImplementation</node>
+    <node x="403.87725779967127" y="0.0">com.viu.giin21.model.Workplace</node>
+    <node x="3051.3764573070607" y="228.0">com.viu.giin21.service.WorkplaceService</node>
+    <node x="2572.5014573070607" y="656.0">com.viu.giin21.controller.JobController</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.viu.giin21.service.implementation.SimulateServiceImplementation" target="com.viu.giin21.repository.JobRepository">
+      <point x="-54.28571428571422" y="-19.0" />
+      <point x="162.94907635467985" y="616.0" />
+      <point x="63.29610016420406" y="616.0" />
+      <point x="-81.59999999999991" y="19.0" />
+    </edge>
+    <edge source="com.viu.giin21.service.implementation.UserServiceImplementation" target="com.viu.giin21.service.UserService">
+      <point x="144.0" y="-19.0" />
+      <point x="1906.5014573070607" y="616.0" />
+      <point x="3334.596428571429" y="616.0" />
+      <point x="-72.79999999999995" y="19.0" />
+    </edge>
+    <edge source="com.viu.giin21.service.implementation.UserServiceImplementation" target="com.viu.giin21.model.User">
+      <point x="-48.0" y="-19.0" />
+      <point x="1714.5014573070607" y="446.0" />
+      <point x="1623.434790640394" y="446.0" />
+      <point x="1623.434790640394" y="98.0" />
+      <point x="1475.3547619047622" y="98.0" />
+      <point x="21.0" y="19.0" />
+    </edge>
+    <edge source="com.viu.giin21.service.implementation.AllocateServiceImplementation" target="com.viu.giin21.model.Workplace">
+      <point x="31.666666666666515" y="-19.0" />
+      <point x="993.9014573070606" y="346.0" />
+      <point x="763.7461001642039" y="346.0" />
+      <point x="763.7461001642039" y="78.0" />
+      <point x="497.21059113300475" y="78.0" />
+      <point x="13.333333333333485" y="19.0" />
+    </edge>
+    <edge source="com.viu.giin21.controller.UserController" target="com.viu.giin21.service.UserService">
+      <point x="-71.66666666666669" y="-19.0" />
+      <point x="3669.334790640394" y="626.0" />
+      <point x="3480.1964285714284" y="626.0" />
+      <point x="72.79999999999995" y="19.0" />
+    </edge>
+    <edge source="com.viu.giin21.service.JobService" target="com.viu.giin21.dto.JobDTO">
+      <point x="0.0" y="-19.0" />
+      <point x="2662.427853037767" y="168.0" />
+      <point x="2579.977853037767" y="168.0" />
+      <point x="19.050000000000182" y="19.0" />
+    </edge>
+    <edge source="com.viu.giin21.controller.DatabaseController" target="com.viu.giin21.service.JobService">
+      <point x="-107.91666666666652" y="-19.0" />
+      <point x="2818.084790640394" y="576.0" />
+      <point x="2705.177853037767" y="576.0" />
+      <point x="42.75" y="19.0" />
+    </edge>
+    <edge source="com.viu.giin21.service.implementation.JobServiceImplementation" target="com.viu.giin21.model.Workplace">
+      <point x="-50.0" y="-19.0" />
+      <point x="539.7347906403941" y="406.0" />
+      <point x="305.2461001642039" y="406.0" />
+      <point x="305.2461001642039" y="208.0" />
+      <point x="443.87725779967127" y="208.0" />
+      <point x="-40.0" y="19.0" />
+    </edge>
+    <edge source="com.viu.giin21.service.AllocateService" target="com.viu.giin21.dto.JobDTO">
+      <point x="0.0" y="-19.0" />
+      <point x="1886.0014573070607" y="148.0" />
+      <point x="2541.8778530377667" y="148.0" />
+      <point x="-19.050000000000182" y="19.0" />
+    </edge>
+    <edge source="com.viu.giin21.controller.AllocateController" target="com.viu.giin21.service.AllocateService">
+      <point x="-86.33333333333348" y="-19.0" />
+      <point x="2336.6681239737272" y="286.0" />
+      <point x="1942.5014573070607" y="286.0" />
+      <point x="56.5" y="19.0" />
+    </edge>
+    <edge source="com.viu.giin21.service.implementation.JobServiceImplementation" target="com.viu.giin21.dto.JobDTO">
+      <point x="50.0" y="-19.0" />
+      <point x="639.7347906403941" y="436.0" />
+      <point x="720.0794334975371" y="436.0" />
+      <point x="720.0794334975371" y="118.0" />
+      <point x="2503.7778530377664" y="118.0" />
+      <point x="-57.15000000000009" y="19.0" />
+    </edge>
+    <edge source="com.viu.giin21.service.implementation.WorkplaceServiceImplementation" target="com.viu.giin21.repository.WorkplaceRepository">
+      <point x="-175.95000000000027" y="-19.0" />
+      <point x="1203.0514573070604" y="336.0" />
+      <point x="527.8889573070612" y="336.0" />
+      <point x="77.14285714285734" y="19.0" />
+    </edge>
+    <edge source="com.viu.giin21.repository.UserRepository" target="com.viu.giin21.model.User">
+      <point x="0.0" y="-19.0" />
+      <point x="1379.0014573070607" y="108.0" />
+      <point x="1433.3547619047622" y="108.0" />
+      <point x="-21.0" y="19.0" />
+    </edge>
+    <edge source="com.viu.giin21.controller.WorkplaceController" target="com.viu.giin21.dto.WorkplaceDTO">
+      <point x="101.25" y="-19.0" />
+      <point x="3579.7514573070607" y="636.0" />
+      <point x="3557.433600164203" y="636.0" />
+      <point x="3557.433600164203" y="168.0" />
+      <point x="3050.746305418719" y="168.0" />
+      <point x="82.71428571428578" y="19.0" />
+    </edge>
+    <edge source="com.viu.giin21.controller.SimulateController" target="com.viu.giin21.dto.SimulationDTO">
+      <point x="-32.375" y="-19.0" />
+      <point x="2111.6264573070607" y="536.0" />
+      <point x="2222.87487684729" y="536.0" />
+      <point x="-51.0" y="19.0" />
+    </edge>
+    <edge source="com.viu.giin21.service.implementation.AllocateServiceImplementation" target="com.viu.giin21.dto.JobDTO">
+      <point x="95.0" y="-19.0" />
+      <point x="1057.234790640394" y="466.0" />
+      <point x="1236.734790640394" y="466.0" />
+      <point x="1236.734790640394" y="138.0" />
+      <point x="2529.177853037767" y="138.0" />
+      <point x="-31.75" y="19.0" />
+    </edge>
+    <edge source="com.viu.giin21.controller.DatabaseController" target="com.viu.giin21.dto.JobDTO">
+      <point x="-21.583333333333258" y="-19.0" />
+      <point x="2904.4181239737272" y="586.0" />
+      <point x="2920.5014573070607" y="586.0" />
+      <point x="2920.5014573070607" y="138.0" />
+      <point x="2618.0778530377665" y="138.0" />
+      <point x="57.15000000000009" y="19.0" />
+    </edge>
+    <edge source="com.viu.giin21.service.implementation.WorkplaceServiceImplementation" target="com.viu.giin21.repository.UserRepository">
+      <point x="-19.550000000000182" y="-19.0" />
+      <point x="1359.4514573070605" y="486.0" />
+      <point x="1361.0847906403937" y="486.0" />
+      <point x="-17.916666666666742" y="19.0" />
+    </edge>
+    <edge source="com.viu.giin21.service.implementation.JobServiceImplementation" target="com.viu.giin21.repository.UserRepository">
+      <point x="100.0" y="-19.0" />
+      <point x="689.7347906403941" y="476.0" />
+      <point x="1289.4181239737272" y="476.0" />
+      <point x="-89.58333333333326" y="19.0" />
+    </edge>
+    <edge source="com.viu.giin21.controller.WorkplaceController" target="com.viu.giin21.service.WorkplaceService">
+      <point x="-101.25" y="-19.0" />
+      <point x="3377.2514573070607" y="606.0" />
+      <point x="3258.7514573070607" y="606.0" />
+      <point x="88.875" y="19.0" />
+    </edge>
+    <edge source="com.viu.giin21.service.WorkplaceService" target="com.viu.giin21.dto.WorkplaceDTO">
+      <point x="0.0" y="-19.0" />
+      <point x="3169.8764573070607" y="188.0" />
+      <point x="2995.603448275862" y="188.0" />
+      <point x="27.57142857142844" y="19.0" />
+    </edge>
+    <edge source="com.viu.giin21.controller.DatabaseController" target="com.viu.giin21.dto.WorkplaceDTO">
+      <point x="21.583333333333258" y="-19.0" />
+      <point x="2947.584790640394" y="586.0" />
+      <point x="2931.5014573070607" y="586.0" />
+      <point x="2931.5014573070607" y="188.0" />
+      <point x="2940.4605911330045" y="188.0" />
+      <point x="-27.57142857142867" y="19.0" />
+    </edge>
+    <edge source="com.viu.giin21.service.implementation.JobServiceImplementation" target="com.viu.giin21.model.User">
+      <point x="25.0" y="-19.0" />
+      <point x="614.7347906403941" y="426.0" />
+      <point x="700.5120484400654" y="426.0" />
+      <point x="700.5120484400654" y="98.0" />
+      <point x="1412.3547619047622" y="98.0" />
+      <point x="-42.0" y="19.0" />
+    </edge>
+    <edge source="com.viu.giin21.controller.DatabaseController" target="com.viu.giin21.service.WorkplaceService">
+      <point x="107.91666666666674" y="-19.0" />
+      <point x="3033.9181239737272" y="606.0" />
+      <point x="3140.2514573070607" y="606.0" />
+      <point x="-29.625" y="19.0" />
+    </edge>
+    <edge source="com.viu.giin21.controller.UserController" target="com.viu.giin21.dto.UserDTO">
+      <point x="71.66666666666674" y="-19.0" />
+      <point x="3812.6681239737272" y="636.0" />
+      <point x="3752.0014573070607" y="636.0" />
+      <point x="3752.0014573070607" y="148.0" />
+      <point x="3455.0445197044337" y="148.0" />
+      <point x="55.200000000000045" y="19.0" />
+    </edge>
+    <edge source="com.viu.giin21.service.implementation.AllocateServiceImplementation" target="com.viu.giin21.repository.JobRepository">
+      <point x="-158.33333333333348" y="-19.0" />
+      <point x="803.9014573070606" y="376.0" />
+      <point x="226.49610016420388" y="376.0" />
+      <point x="81.59999999999991" y="19.0" />
+    </edge>
+    <edge source="com.viu.giin21.service.implementation.SimulateServiceImplementation" target="com.viu.giin21.model.Job">
+      <point x="-162.85714285714312" y="-19.0" />
+      <point x="54.37764778325095" y="636.0" />
+      <point x="0.0" y="636.0" />
+      <point x="0.0" y="178.0" />
+      <point x="189.52725779967136" y="178.0" />
+      <point x="-37.59999999999991" y="19.0" />
+    </edge>
+    <edge source="com.viu.giin21.service.implementation.UserServiceImplementation" target="com.viu.giin21.repository.UserRepository">
+      <point x="-144.0" y="-19.0" />
+      <point x="1618.5014573070607" y="466.0" />
+      <point x="1432.7514573070607" y="466.0" />
+      <point x="53.75" y="19.0" />
+    </edge>
+    <edge source="com.viu.giin21.controller.JobController" target="com.viu.giin21.service.UserService">
+      <point x="76.5" y="-19.0" />
+      <point x="2751.0014573070607" y="626.0" />
+      <point x="3370.9964285714286" y="626.0" />
+      <point x="-36.39999999999998" y="19.0" />
+    </edge>
+    <edge source="com.viu.giin21.controller.DefaultController" target="com.viu.giin21.service.UserService">
+      <point x="82.66666666666674" y="-19.0" />
+      <point x="3282.1681239737272" y="636.0" />
+      <point x="3407.3964285714287" y="636.0" />
+      <point x="0.0" y="19.0" />
+    </edge>
+    <edge source="com.viu.giin21.service.implementation.JobServiceImplementation" target="com.viu.giin21.model.Job">
+      <point x="-75.0" y="-19.0" />
+      <point x="514.7347906403941" y="416.0" />
+      <point x="294.2461001642039" y="416.0" />
+      <point x="294.2461001642039" y="178.0" />
+      <point x="245.92725779967145" y="178.0" />
+      <point x="18.800000000000182" y="19.0" />
+    </edge>
+    <edge source="com.viu.giin21.service.implementation.SimulateServiceImplementation" target="com.viu.giin21.service.SimulateService">
+      <point x="162.85714285714266" y="-19.0" />
+      <point x="380.09193349753673" y="456.0" />
+      <point x="1056.734790640394" y="456.0" />
+      <point x="-56.5" y="19.0" />
+    </edge>
+    <edge source="com.viu.giin21.service.implementation.AllocateServiceImplementation" target="com.viu.giin21.service.AllocateService">
+      <point x="158.33333333333348" y="-19.0" />
+      <point x="1120.5681239737276" y="496.0" />
+      <point x="1829.5014573070607" y="496.0" />
+      <point x="-56.5" y="19.0" />
+    </edge>
+    <edge source="com.viu.giin21.repository.JobRepository" target="com.viu.giin21.model.Job">
+      <point x="0.0" y="-19.0" />
+      <point x="144.89610016420397" y="188.0" />
+      <point x="208.3272577996711" y="188.0" />
+      <point x="-18.800000000000182" y="19.0" />
+    </edge>
+    <edge source="com.viu.giin21.service.implementation.WorkplaceServiceImplementation" target="com.viu.giin21.service.WorkplaceService">
+      <point x="175.94999999999982" y="-19.0" />
+      <point x="1554.9514573070605" y="596.0" />
+      <point x="3081.0014573070607" y="596.0" />
+      <point x="-88.875" y="19.0" />
+    </edge>
+    <edge source="com.viu.giin21.service.implementation.WorkplaceServiceImplementation" target="com.viu.giin21.dto.WorkplaceDTO">
+      <point x="97.75" y="-19.0" />
+      <point x="1476.7514573070607" y="486.0" />
+      <point x="1634.434790640394" y="486.0" />
+      <point x="1634.434790640394" y="178.0" />
+      <point x="2885.3177339901476" y="178.0" />
+      <point x="-82.71428571428578" y="19.0" />
+    </edge>
+    <edge source="com.viu.giin21.service.implementation.AllocateServiceImplementation" target="com.viu.giin21.repository.WorkplaceRepository">
+      <point x="-95.0" y="-19.0" />
+      <point x="867.2347906403941" y="366.0" />
+      <point x="489.3175287356323" y="366.0" />
+      <point x="38.57142857142844" y="19.0" />
+    </edge>
+    <edge source="com.viu.giin21.controller.DefaultController" target="com.viu.giin21.service.JobService">
+      <point x="-82.66666666666674" y="-19.0" />
+      <point x="3116.834790640394" y="566.0" />
+      <point x="2733.677853037767" y="566.0" />
+      <point x="71.25" y="19.0" />
+    </edge>
+    <edge source="com.viu.giin21.controller.JobController" target="com.viu.giin21.service.JobService">
+      <point x="-25.5" y="-19.0" />
+      <point x="2649.0014573070607" y="586.0" />
+      <point x="2676.677853037767" y="586.0" />
+      <point x="14.25" y="19.0" />
+    </edge>
+    <edge source="com.viu.giin21.controller.WorkplaceController" target="com.viu.giin21.service.UserService">
+      <point x="-33.75" y="-19.0" />
+      <point x="36.39999999999998" y="19.0" />
+    </edge>
+    <edge source="com.viu.giin21.controller.DefaultController" target="com.viu.giin21.service.WorkplaceService">
+      <point x="0.0" y="-19.0" />
+      <point x="29.625" y="19.0" />
+    </edge>
+    <edge source="com.viu.giin21.service.implementation.UserServiceImplementation" target="com.viu.giin21.dto.UserDTO">
+      <point x="96.0" y="-19.0" />
+      <point x="1858.5014573070607" y="526.0" />
+      <point x="2116.18737684729" y="526.0" />
+      <point x="2116.18737684729" y="208.0" />
+      <point x="3372.2445197044335" y="208.0" />
+      <point x="-27.59999999999991" y="19.0" />
+    </edge>
+    <edge source="com.viu.giin21.controller.SimulateController" target="com.viu.giin21.service.JobService">
+      <point x="97.125" y="-19.0" />
+      <point x="2241.1264573070607" y="566.0" />
+      <point x="2619.677853037767" y="566.0" />
+      <point x="-42.75" y="19.0" />
+    </edge>
+    <edge source="com.viu.giin21.controller.JobController" target="com.viu.giin21.dto.JobDTO">
+      <point x="25.5" y="-19.0" />
+      <point x="2700.0014573070607" y="586.0" />
+      <point x="2758.5120484400654" y="586.0" />
+      <point x="2758.5120484400654" y="158.0" />
+      <point x="2592.677853037767" y="158.0" />
+      <point x="31.75" y="19.0" />
+    </edge>
+    <edge source="com.viu.giin21.service.implementation.SimulateServiceImplementation" target="com.viu.giin21.repository.WorkplaceRepository">
+      <point x="54.28571428571422" y="-19.0" />
+      <point x="271.5205049261083" y="626.0" />
+      <point x="335.0318144499181" y="626.0" />
+      <point x="-115.71428571428578" y="19.0" />
+    </edge>
+    <edge source="com.viu.giin21.service.implementation.JobServiceImplementation" target="com.viu.giin21.repository.WorkplaceRepository">
+      <point x="-25.0" y="-19.0" />
+      <point x="564.7347906403941" y="396.0" />
+      <point x="412.17467159277544" y="396.0" />
+      <point x="-38.57142857142844" y="19.0" />
+    </edge>
+    <edge source="com.viu.giin21.controller.AllocateController" target="com.viu.giin21.service.JobService">
+      <point x="86.33333333333348" y="-19.0" />
+      <point x="2509.334790640394" y="576.0" />
+      <point x="2648.177853037767" y="576.0" />
+      <point x="-14.25" y="19.0" />
+    </edge>
+    <edge source="com.viu.giin21.service.implementation.WorkplaceServiceImplementation" target="com.viu.giin21.model.User">
+      <point x="58.65000000000009" y="-19.0" />
+      <point x="1437.6514573070608" y="476.0" />
+      <point x="1612.434790640394" y="476.0" />
+      <point x="1612.434790640394" y="108.0" />
+      <point x="1454.3547619047622" y="108.0" />
+      <point x="0.0" y="19.0" />
+    </edge>
+    <edge source="com.viu.giin21.service.implementation.JobServiceImplementation" target="com.viu.giin21.repository.JobRepository">
+      <point x="-150.0" y="-19.0" />
+      <point x="439.73479064039407" y="446.0" />
+      <point x="144.89610016420397" y="446.0" />
+      <point x="0.0" y="19.0" />
+    </edge>
+    <edge source="com.viu.giin21.service.UserService" target="com.viu.giin21.dto.UserDTO">
+      <point x="0.0" y="-19.0" />
+      <point x="3407.3964285714287" y="208.0" />
+      <point x="3399.8445197044334" y="208.0" />
+      <point x="0.0" y="19.0" />
+    </edge>
+    <edge source="com.viu.giin21.controller.SimulateController" target="com.viu.giin21.service.SimulateService">
+      <point x="-97.125" y="-19.0" />
+      <point x="2046.8764573070607" y="296.0" />
+      <point x="1169.734790640394" y="296.0" />
+      <point x="56.5" y="19.0" />
+    </edge>
+    <edge source="com.viu.giin21.service.implementation.AllocateServiceImplementation" target="com.viu.giin21.model.Job">
+      <point x="-31.666666666666515" y="-19.0" />
+      <point x="930.5681239737276" y="356.0" />
+      <point x="752.7461001642039" y="356.0" />
+      <point x="752.7461001642039" y="88.0" />
+      <point x="264.7272577996712" y="88.0" />
+      <point x="37.59999999999991" y="19.0" />
+    </edge>
+    <edge source="com.viu.giin21.service.implementation.SimulateServiceImplementation" target="com.viu.giin21.model.Workplace">
+      <point x="-108.57142857142844" y="-19.0" />
+      <point x="108.66336206896563" y="626.0" />
+      <point x="11.0" y="626.0" />
+      <point x="11.0" y="198.0" />
+      <point x="417.21059113300475" y="198.0" />
+      <point x="-66.66666666666652" y="19.0" />
+    </edge>
+    <edge source="com.viu.giin21.repository.WorkplaceRepository" target="com.viu.giin21.model.Workplace">
+      <point x="0.0" y="-19.0" />
+      <point x="450.7461001642039" y="208.0" />
+      <point x="470.5439244663378" y="208.0" />
+      <point x="-13.333333333333485" y="19.0" />
+    </edge>
+    <edge source="com.viu.giin21.controller.AllocateController" target="com.viu.giin21.dto.JobDTO">
+      <point x="0.0" y="-19.0" />
+      <point x="2423.0014573070607" y="546.0" />
+      <point x="2503.1370484400654" y="546.0" />
+      <point x="2503.1370484400654" y="158.0" />
+      <point x="2554.5778530377665" y="158.0" />
+      <point x="-6.349999999999909" y="19.0" />
+    </edge>
+    <edge source="com.viu.giin21.service.implementation.JobServiceImplementation" target="com.viu.giin21.service.JobService">
+      <point x="150.0" y="-19.0" />
+      <point x="739.7347906403941" y="556.0" />
+      <point x="2591.177853037767" y="556.0" />
+      <point x="-71.25" y="19.0" />
+    </edge>
+    <edge source="com.viu.giin21.service.implementation.WorkplaceServiceImplementation" target="com.viu.giin21.model.Workplace">
+      <point x="-58.65000000000009" y="-19.0" />
+      <point x="1320.3514573070606" y="306.0" />
+      <point x="1247.734790640394" y="306.0" />
+      <point x="1247.734790640394" y="58.0" />
+      <point x="550.5439244663378" y="58.0" />
+      <point x="66.66666666666652" y="19.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.5000000000000001" x="1681.9999999999995" y="129.00000000000023" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>public</VISIBILITY>
+</Diagram>
+
