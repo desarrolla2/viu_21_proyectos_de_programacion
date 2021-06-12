@@ -70,7 +70,7 @@ giin21
 <th>Missing Classes</th></tr>
 <tr class="b">
 <td>30</td>
-<td>5</td>
+<td>4</td>
 <td>0</td>
 <td>0</td></tr></table></div>
 <div class="section">
@@ -83,60 +83,42 @@ giin21
 <td><a href="#com.viu.giin21.controller.DefaultController">com.viu.giin21.controller.DefaultController</a></td>
 <td>1</td></tr>
 <tr class="a">
-<td><a href="#com.viu.giin21.service.implementation.AllocateServiceImplementation$1">com.viu.giin21.service.implementation.AllocateServiceImplementation$1</a></td>
-<td>1</td></tr>
-<tr class="b">
 <td><a href="#com.viu.giin21.service.implementation.JobServiceImplementation">com.viu.giin21.service.implementation.JobServiceImplementation</a></td>
 <td>2</td></tr>
-<tr class="a">
+<tr class="b">
 <td><a href="#com.viu.giin21.service.implementation.WorkplaceServiceImplementation">com.viu.giin21.service.implementation.WorkplaceServiceImplementation</a></td>
 <td>1</td></tr></table></div><a name="com.viu.giin21.controller.DefaultController"></a>
 <div class="section">
 <h3><a name="com.viu.giin21.controller.DefaultController"></a>com.viu.giin21.controller.DefaultController</h3>
 <table border="0" class="bodyTable">
-<tr class="b">
+<tr class="a">
 <th>Bug</th>
 <th>Category</th>
 <th>Details</th>
 <th>Line</th>
 <th>Priority</th></tr>
-<tr class="a">
+<tr class="b">
 <td>com.viu.giin21.controller.DefaultController.prepareData() invokes inefficient new Integer(int) constructor; use Integer.valueOf(int) instead</td>
 <td>PERFORMANCE</td>
 <td><a class="externalLink" href="https://spotbugs.readthedocs.io/en/latest/bugDescriptions.html#DM_NUMBER_CTOR">DM_NUMBER_CTOR</a></td>
 <td><a href="./xref/com/viu/giin21/controller/DefaultController.html#L53">53</a></td>
-<td>Medium</td></tr></table></div><a name="com.viu.giin21.service.implementation.AllocateServiceImplementation1"></a>
-<div class="section">
-<h3><a name="com.viu.giin21.service.implementation.AllocateServiceImplementation.241"></a>com.viu.giin21.service.implementation.AllocateServiceImplementation$1</h3>
-<table border="0" class="bodyTable">
-<tr class="b">
-<th>Bug</th>
-<th>Category</th>
-<th>Details</th>
-<th>Line</th>
-<th>Priority</th></tr>
-<tr class="a">
-<td>com.viu.giin21.service.implementation.AllocateServiceImplementation$1.compare(Workplace, Workplace) incorrectly handles float value</td>
-<td>BAD_PRACTICE</td>
-<td><a class="externalLink" href="https://spotbugs.readthedocs.io/en/latest/bugDescriptions.html#CO_COMPARETO_INCORRECT_FLOATING">CO_COMPARETO_INCORRECT_FLOATING</a></td>
-<td><a href="./xref/com/viu/giin21/service/implementation/AllocateServiceImplementation.html#L49">49</a></td>
 <td>Medium</td></tr></table></div><a name="com.viu.giin21.service.implementation.JobServiceImplementation"></a>
 <div class="section">
 <h3><a name="com.viu.giin21.service.implementation.JobServiceImplementation"></a>com.viu.giin21.service.implementation.JobServiceImplementation</h3>
 <table border="0" class="bodyTable">
-<tr class="b">
+<tr class="a">
 <th>Bug</th>
 <th>Category</th>
 <th>Details</th>
 <th>Line</th>
 <th>Priority</th></tr>
-<tr class="a">
+<tr class="b">
 <td>Redundant nullcheck of user, which is known to be non-null in com.viu.giin21.service.implementation.JobServiceImplementation.toDtoSetUsername(Job, JobDTO)</td>
 <td>STYLE</td>
 <td><a class="externalLink" href="https://spotbugs.readthedocs.io/en/latest/bugDescriptions.html#RCN_REDUNDANT_NULLCHECK_OF_NONNULL_VALUE">RCN_REDUNDANT_NULLCHECK_OF_NONNULL_VALUE</a></td>
 <td><a href="./xref/com/viu/giin21/service/implementation/JobServiceImplementation.html#L97">97</a></td>
 <td>Medium</td></tr>
-<tr class="b">
+<tr class="a">
 <td>Redundant nullcheck of workplace, which is known to be non-null in com.viu.giin21.service.implementation.JobServiceImplementation.toDtoSetWorkplaceName(Job, JobDTO)</td>
 <td>STYLE</td>
 <td><a class="externalLink" href="https://spotbugs.readthedocs.io/en/latest/bugDescriptions.html#RCN_REDUNDANT_NULLCHECK_OF_NONNULL_VALUE">RCN_REDUNDANT_NULLCHECK_OF_NONNULL_VALUE</a></td>
@@ -145,13 +127,13 @@ giin21
 <div class="section">
 <h3><a name="com.viu.giin21.service.implementation.WorkplaceServiceImplementation"></a>com.viu.giin21.service.implementation.WorkplaceServiceImplementation</h3>
 <table border="0" class="bodyTable">
-<tr class="a">
+<tr class="b">
 <th>Bug</th>
 <th>Category</th>
 <th>Details</th>
 <th>Line</th>
 <th>Priority</th></tr>
-<tr class="b">
+<tr class="a">
 <td>Redundant nullcheck of user, which is known to be non-null in com.viu.giin21.service.implementation.WorkplaceServiceImplementation.toDtoSetUsername(Workplace, WorkplaceDTO)</td>
 <td>STYLE</td>
 <td><a class="externalLink" href="https://spotbugs.readthedocs.io/en/latest/bugDescriptions.html#RCN_REDUNDANT_NULLCHECK_OF_NONNULL_VALUE">RCN_REDUNDANT_NULLCHECK_OF_NONNULL_VALUE</a></td>
