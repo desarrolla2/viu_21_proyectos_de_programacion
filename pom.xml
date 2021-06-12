@@ -92,9 +92,6 @@
                     <sourceEncoding>utf-8</sourceEncoding>
                     <minimumTokens>100</minimumTokens>
                     <targetJdk>11</targetJdk>
-                    <rulesets>
-                        <ruleset>pmd.xml</ruleset>
-                    </rulesets>
                 </configuration>
             </plugin>
             <plugin>
@@ -104,9 +101,6 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-checkstyle-plugin</artifactId>
-                <configuration>
-                    <configLocation>checkstyle.xml</configLocation>
-                </configuration>
                 <reportSets>
                     <reportSet>
                         <reports>
