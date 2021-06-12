@@ -46,7 +46,11 @@ public class AllocateServiceImplementation implements AllocateService {
                     return 0;
                 }
 
-                return estimatedTime1 > estimatedTime2 ? 1 : -1;
+                //return estimatedTime1 >= estimatedTime2 ? 1 : -1;
+                if (Double.compare(estimatedTime1, estimatedTime2) >= 0) {
+                    return 1;
+                }
+                return -1;
             }
         });
 
